@@ -9,8 +9,8 @@
 				<i v-if="item.icon" :class="'el-icon-' + item.icon"></i>
 				<span slot="title">{{item.title}}</span>
 			</el-menu-item>
+			<el-button type="error" @click="test">sadf</el-button>
 		</el-menu>
-		<el-button type="error" @click="test">sadf</el-button>
 	</scroll-bar>
 </template>
 <script>
@@ -42,7 +42,8 @@ export default {
 </script>
 <style>
 .sidebar-container:not(.el-menu--collapse) {
+	flex: 0 0 200px;
+	min-height: 100vh;
 	width: 200px;
-	min-height: 400px;
 }
 </style>

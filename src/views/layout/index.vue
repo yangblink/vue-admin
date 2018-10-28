@@ -19,3 +19,11 @@ export default {
   }
 }
 </script>
+
+<style>
+	.app-wrapper {
+		display: flex;
+		flex-direction: row;
+		flex: auto;
+	}
+</style>
